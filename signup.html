@@ -26,10 +26,11 @@
                 </span>
                 <form>
                     <div class="input-field col s12">
-                        <input id="signinPRN" type="number" placeholder="PRN">
-                        <small>Start PRN with 0</small>
-                        <div class="center"><a class="waves-effect waves-light btn blue darken-2" onclick="submitprn()"
-                                id="submitprn">Submit</a></div>
+                       <input id="signinUSN" type="text" placeholder="USN">
+                       <small>Start USN with 01JST and end with a 3-digit number</small>
+                       <div class="center"><a class="waves-effect waves-light btn blue darken-2" onclick="submitusn()"
+                       id="submitusn">Submit</a></div>
+
                         <div id="details">
 
                             <h6 id="name"></h6>
@@ -37,7 +38,7 @@
                             <h6 id="Branch"></h6>
 
                             <label>
-                                <input id="verifyprn" type="checkbox" />
+                                <input id="verifyusn" type="checkbox" />
                                 <span id="checktext">I confirm that my details are correct</span>
                             </label>
                         </div>
